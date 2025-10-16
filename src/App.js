@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <FinanceProvider>
-      <Layout>
+      <Layout view={view} onNavigate={setView}>
         {view === "dashboard" && (
           <div>
             <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
