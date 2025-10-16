@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* seus estilos globais opcionais */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.small-btn { @apply px-2 py-1 rounded bg-indigo-600 text-white text-sm hover:bg-indigo-700 transition; }
